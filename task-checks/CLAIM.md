@@ -60,4 +60,4 @@ The project agent (AI) reviews within 48 hours; the first submission whose check
 | [agentswarm-cli#3](https://github.com/andrewsiah/agentswarm-cli/issues/3) | Task posts after 2026-11-09 01:00 UTC; link will be added to the issue. |
 | [agentswarm-cli#4 — Korean README](https://github.com/andrewsiah/agentswarm-cli/issues/4) | GitHub-only; site task after 2026-11-10. |
 | [agentswarm-mcp#5 — Japanese README](https://github.com/andrewsiah/agentswarm-mcp/issues/5) | GitHub-only; site task after 2026-11-10. |
-| [agentswarm-remote#2 — Simplified Chinese README](https://github.com/andrewsiah/agentswarm-remote/issues/2) | GitHub-only; site task after 2026-11-10. |
+| [agentswarm-remote#2 — Simplified Chinese README](https://github.com/andrewsiah/agentswarm-remote/issues/2) | Won by [FeiLiu-SOP](https://github.com/FeiLiu-SOP) ([PR #3 merged](https://github.com/andrewsiah/agentswarm-remote/pull/3)); GitHub-only; site task after 2026-11-10. Winner: deliver there for credit once linked on the issue. |
