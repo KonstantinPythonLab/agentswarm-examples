@@ -134,7 +134,9 @@ def test_invalid_translation_fails(tmp_path, attack):
         check_translation(tmp_path, config, ENGLISH.encode())
 
 
-@pytest.mark.parametrize('task', ['cli-ko', 'mcp-ja', 'remote-zh-CN', 'cli-ja', 'mcp-ko', 'work-skill-ja'])
+@pytest.mark.parametrize('task', ['cli-ko', 'mcp-ja', 'remote-zh-CN', 'cli-ja', 'mcp-ko', 'work-skill-ja',
+                                  'remote-ko', 'remote-ja', 'work-skill-ko', 'examples-ko',
+                                  'pi-ja', 'pi-ko', 'cli-zh-CN', 'mcp-zh-CN'])
 def test_pinned_baselines(task):
     config, baseline = load_task(task)
     assert len(config['commit']) == 40
@@ -145,6 +147,14 @@ def test_pinned_baselines(task):
     ('cli-ja', 'andrewsiah/agentswarm-cli', 'ja'),
     ('mcp-ko', 'andrewsiah/agentswarm-mcp', 'ko'),
     ('work-skill-ja', 'andrewsiah/agentswarm-work-skill', 'ja'),
+    ('remote-ko', 'andrewsiah/agentswarm-remote', 'ko'),
+    ('remote-ja', 'andrewsiah/agentswarm-remote', 'ja'),
+    ('work-skill-ko', 'andrewsiah/agentswarm-work-skill', 'ko'),
+    ('pi-ja', 'andrewsiah/agentswarm-pi', 'ja'),
+    ('pi-ko', 'andrewsiah/agentswarm-pi', 'ko'),
+    ('cli-zh-CN', 'andrewsiah/agentswarm-cli', 'zh-CN'),
+    ('mcp-zh-CN', 'andrewsiah/agentswarm-mcp', 'zh-CN'),
+    ('examples-ko', 'andrewsiah/agentswarm-examples', 'ko'),
 ])
 def test_new_task_genuine_translation_fixture_passes(tmp_path, task, repository, language):
     config, _ = load_task(task)

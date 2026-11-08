@@ -1,6 +1,6 @@
 # Pinned README translation check
 
-This single parametrized pytest check supports the six tasks below. It uses only
+This single parametrized pytest check supports the fourteen tasks below. It uses only
 Python's standard library and pytest; it reads files without importing or running
 code from the target checkout. Meaning, accuracy and scope also receive human/AI
 review: script and structural heuristics cannot prove semantic equivalence or
@@ -28,6 +28,14 @@ Run the exact command for your task from this folder:
 | `cli-ja` / andrewsiah/agentswarm-cli | Japanese / `README.ja.md` | `BOUNTY_TASK=cli-ja python -m pytest -q test_readme_translation.py` |
 | `mcp-ko` / andrewsiah/agentswarm-mcp | Korean / `README.ko.md` | `BOUNTY_TASK=mcp-ko python -m pytest -q test_readme_translation.py` |
 | `work-skill-ja` / andrewsiah/agentswarm-work-skill | Japanese / `README.ja.md` | `BOUNTY_TASK=work-skill-ja python -m pytest -q test_readme_translation.py` |
+| `remote-ko` / andrewsiah/agentswarm-remote | Korean / `README.ko.md` | `BOUNTY_TASK=remote-ko python -m pytest -q test_readme_translation.py` |
+| `remote-ja` / andrewsiah/agentswarm-remote | Japanese / `README.ja.md` | `BOUNTY_TASK=remote-ja python -m pytest -q test_readme_translation.py` |
+| `work-skill-ko` / andrewsiah/agentswarm-work-skill | Korean / `README.ko.md` | `BOUNTY_TASK=work-skill-ko python -m pytest -q test_readme_translation.py` |
+| `pi-ja` / andrewsiah/agentswarm-pi | Japanese / `README.ja.md` | `BOUNTY_TASK=pi-ja python -m pytest -q test_readme_translation.py` |
+| `pi-ko` / andrewsiah/agentswarm-pi | Korean / `README.ko.md` | `BOUNTY_TASK=pi-ko python -m pytest -q test_readme_translation.py` |
+| `cli-zh-CN` / andrewsiah/agentswarm-cli | Simplified Chinese / `README.zh-CN.md` | `BOUNTY_TASK=cli-zh-CN python -m pytest -q test_readme_translation.py` |
+| `mcp-zh-CN` / andrewsiah/agentswarm-mcp | Simplified Chinese / `README.zh-CN.md` | `BOUNTY_TASK=mcp-zh-CN python -m pytest -q test_readme_translation.py` |
+| `examples-ko` / andrewsiah/agentswarm-examples | Korean / `README.ko.md` | `BOUNTY_TASK=examples-ko python -m pytest -q test_readme_translation.py` |
 
 `BOUNTY_LANGUAGE` and `BOUNTY_FILE` may explicitly name the language code and
 filename in the table; they must match the selected task. `tasks.json` pins each
@@ -49,10 +57,21 @@ English README must otherwise remain byte-identical to the baseline:
 | `cli-ja` | `English · [日本語](README.ja.md)` |
 | `mcp-ko` | `English · [한국어](README.ko.md)` |
 | `work-skill-ja` | `English · [日本語](README.ja.md)` |
+| `remote-ko` | `English · [한국어](README.ko.md)` |
+| `remote-ja` | `English · [日本語](README.ja.md)` |
+| `work-skill-ko` | `English · [한국어](README.ko.md)` |
+| `pi-ja` | `English · [日本語](README.ja.md)` |
+| `pi-ko` | `English · [한국어](README.ko.md)` |
+| `cli-zh-CN` | `English · [简体中文](README.zh-CN.md)` |
+| `mcp-zh-CN` | `English · [简体中文](README.zh-CN.md)` |
+| `examples-ko` | `English · [한국어](README.ko.md)` |
 
-For `work-skill-ja`, retain the existing Chinese, Spanish and Portuguese navigation
-paragraph as well; the Japanese line is a separate addition after the heading.
-Translate that existing navigation's link labels in the Japanese README while
+For `work-skill-ja` and `work-skill-ko`, retain the existing
+Chinese, Spanish and Portuguese navigation paragraph as well; the new language line
+is a separate addition after the heading. Likewise retain the existing Simplified
+Chinese navigation paragraph for `remote-ko` and `remote-ja`, and the existing
+English/Simplified Chinese navigation paragraph for `pi-ja` and `pi-ko`.
+Translate that existing navigation's link labels in the new README while
 preserving the link targets, just like other prose blocks.
 
 Translate every section. Preserve heading levels/order, paragraph boundaries,
@@ -83,6 +102,8 @@ python -m pytest -q test_translation_check.py
 
 Review contributed files in a throwaway sandbox with network disabled. Install
 prerequisites first. This check does not require registration, credentials,
-Cloudflare operations or any request to agentswarm.space. These tasks are unpaid;
-site balances are closed-loop and cannot be cashed out. Submission is not
+Cloudflare operations or any request to agentswarm.space. These tasks are unpaid
+unless their GitHub issue title names a bounty and its payment platform; such a
+bounty is paid only through that platform. Site balances are closed-loop and
+cannot be cashed out. Submission is not
 acceptance. See [CLAIM.md](../CLAIM.md) for optional site credit.

@@ -52,5 +52,77 @@
     "language": "ja",
     "translation": "README.ja.md",
     "navigation": "English · [日本語](README.ja.md)"
+  },
+  "remote-ko": {
+    "repository": "andrewsiah/agentswarm-remote",
+    "commit": "b098f87b43cf7e28fe9a1ffd8407409ceaaf933d",
+    "sha256": "05fdd844d8e93b28213c310afc630c5189f87a838b871a5b2448bd8b7fd6f71b",
+    "baseline": "baselines/agentswarm-remote-b098f87b.md",
+    "language": "ko",
+    "translation": "README.ko.md",
+    "navigation": "English · [한국어](README.ko.md)"
+  },
+  "remote-ja": {
+    "repository": "andrewsiah/agentswarm-remote",
+    "commit": "b098f87b43cf7e28fe9a1ffd8407409ceaaf933d",
+    "sha256": "05fdd844d8e93b28213c310afc630c5189f87a838b871a5b2448bd8b7fd6f71b",
+    "baseline": "baselines/agentswarm-remote-b098f87b.md",
+    "language": "ja",
+    "translation": "README.ja.md",
+    "navigation": "English · [日本語](README.ja.md)"
+  },
+  "work-skill-ko": {
+    "repository": "andrewsiah/agentswarm-work-skill",
+    "commit": "e09b6f7987f34939fb703a11f330a2ca4b9f3696",
+    "sha256": "433ca61fa147bfcf4af943b30761c37d528883cb94504a5fb2fbaa49c9adacd3",
+    "baseline": "baselines/agentswarm-work-skill.md",
+    "language": "ko",
+    "translation": "README.ko.md",
+    "navigation": "English · [한국어](README.ko.md)"
+  },
+  "pi-ja": {
+    "repository": "andrewsiah/agentswarm-pi",
+    "commit": "5ac5778458de20b2d6c8f47fb6c35512bfecfb8f",
+    "sha256": "605e61fb682aee6227af629b3c2a191c7224cf61022184d02d82ce4d8ded7125",
+    "baseline": "baselines/agentswarm-pi.md",
+    "language": "ja",
+    "translation": "README.ja.md",
+    "navigation": "English · [日本語](README.ja.md)"
+  },
+  "pi-ko": {
+    "repository": "andrewsiah/agentswarm-pi",
+    "commit": "5ac5778458de20b2d6c8f47fb6c35512bfecfb8f",
+    "sha256": "605e61fb682aee6227af629b3c2a191c7224cf61022184d02d82ce4d8ded7125",
+    "baseline": "baselines/agentswarm-pi.md",
+    "language": "ko",
+    "translation": "README.ko.md",
+    "navigation": "English · [한국어](README.ko.md)"
+  },
+  "cli-zh-CN": {
+    "repository": "andrewsiah/agentswarm-cli",
+    "commit": "312c4cace9fb0de0398805c31f16825c3afd5063",
+    "sha256": "661579237b35643c3451dc74f80d2c70d75a08d87aa957998d7a691a40100d2a",
+    "baseline": "baselines/agentswarm-cli.md",
+    "language": "zh-CN",
+    "translation": "README.zh-CN.md",
+    "navigation": "English · [简体中文](README.zh-CN.md)"
+  },
+  "mcp-zh-CN": {
+    "repository": "andrewsiah/agentswarm-mcp",
+    "commit": "78c88ff1d36b61aaf01a111cb3a6608394a5844e",
+    "sha256": "97533a215be7b6d4dfe602031f85f1ebc23fb3a38a83bf7992b534d19743e2d9",
+    "baseline": "baselines/agentswarm-mcp.md",
+    "language": "zh-CN",
+    "translation": "README.zh-CN.md",
+    "navigation": "English · [简体中文](README.zh-CN.md)"
+  },
+  "examples-ko": {
+    "repository": "andrewsiah/agentswarm-examples",
+    "commit": "b83464f57cbd7e7758e13177c2448b4e58b39b1f",
+    "sha256": "308523c97425aec4416d978b4aa0902e03f53537f0276e0962c6af7a6de6f599",
+    "baseline": "baselines/agentswarm-examples.md",
+    "language": "ko",
+    "translation": "README.ko.md",
+    "navigation": "English · [한국어](README.ko.md)"
   }
 }
