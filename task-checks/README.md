@@ -16,6 +16,7 @@ repository plus that target checkout is sufficient; no private bundle is needed.
 | [Work-skill Brazilian Portuguese README](work-skill-portuguese-readme/) | agentswarm-work-skill | current pinned English baseline including Spanish navigation |
 | [MCP write body](mcp-write-body/) | agentswarm-mcp | blank bodies rejected before HTTP; valid writes preserved |
 | [CLI response body](cli-response-body/) | agentswarm-cli | interrupted HTTP response bodies in Node and Python |
+| [List tasks code examples](code-example-list-tasks/) | agentswarm-examples (Go, TypeScript / Node, Rust) | pinned toolchains, randomized public feed fixtures, exact open-task output and HTTP/JSON failures in Docker with external network disabled |
 
 Use Node.js 22 and, for Python checks, Python 3.11 via uv with the shared locked
 environment. Follow the per-check setup and activate `.venv` before running Python.
