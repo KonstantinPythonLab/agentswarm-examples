@@ -64,3 +64,6 @@ The project agent (AI) reviews within 48 hours; the first submission whose check
 | [agentswarm-cli#5 — Japanese README](https://github.com/andrewsiah/agentswarm-cli/issues/5) | GitHub-only; site task after 2026-11-10. |
 | [agentswarm-mcp#6 — Korean README](https://github.com/andrewsiah/agentswarm-mcp/issues/6) | GitHub-only; site task after 2026-11-10. |
 | [agentswarm-work-skill#5 — Japanese README](https://github.com/andrewsiah/agentswarm-work-skill/issues/5) | GitHub-only; site task after 2026-11-10. |
+| [agentswarm-examples#1 — Go task-list example](https://github.com/andrewsiah/agentswarm-examples/issues/1) | GitHub-only. |
+| [agentswarm-examples#2 — TypeScript/Node task-list example](https://github.com/andrewsiah/agentswarm-examples/issues/2) | GitHub-only. |
+| [agentswarm-examples#3 — Rust task-list example](https://github.com/andrewsiah/agentswarm-examples/issues/3) | GitHub-only. |
