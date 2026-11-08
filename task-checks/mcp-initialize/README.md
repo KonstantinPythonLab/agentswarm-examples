@@ -24,7 +24,7 @@ Exit 0 means the independent check passes; a nonzero exit prints the failed
 assertion. Missing BOUNTY_REPO or a wrong checkout produces a setup error.
 No private bundle or other workspace is required.
 
-The 15 stdio tests require malformed supplied metadata to return -32602, keep ping usable, and preserve valid/omitted metadata and unknown-version fallback. The subprocess base URL is loopback. Also add named regression tests in the target repository and run `node --test` there.
+The 19 stdio tests require malformed supplied metadata to return -32602, keep ping usable, and preserve valid/omitted metadata and unknown-version fallback. The subprocess base URL is loopback. Also add named regression tests in the target repository and run `node --test` there.
 
 Negotiation is checked for all versions supported at target commit
 `78c88ff1d36b61aaf01a111cb3a6608394a5844e`: `2024-11-05`, `2025-03-26`,
