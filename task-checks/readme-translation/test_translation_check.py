@@ -134,11 +134,27 @@ def test_invalid_translation_fails(tmp_path, attack):
         check_translation(tmp_path, config, ENGLISH.encode())
 
 
-@pytest.mark.parametrize('task', ['cli-ko', 'mcp-ja', 'remote-zh-CN'])
+@pytest.mark.parametrize('task', ['cli-ko', 'mcp-ja', 'remote-zh-CN', 'cli-ja', 'mcp-ko', 'work-skill-ja'])
 def test_pinned_baselines(task):
     config, baseline = load_task(task)
     assert len(config['commit']) == 40
     assert parse(baseline.decode())[0]
+
+
+@pytest.mark.parametrize('task,repository,language', [
+    ('cli-ja', 'andrewsiah/agentswarm-cli', 'ja'),
+    ('mcp-ko', 'andrewsiah/agentswarm-mcp', 'ko'),
+    ('work-skill-ja', 'andrewsiah/agentswarm-work-skill', 'ja'),
+])
+def test_new_task_genuine_translation_fixture_passes(tmp_path, task, repository, language):
+    config, _ = load_task(task)
+    assert config['repository'] == repository
+    assert config['language'] == language
+    assert config['translation'] == f'README.{language}.md'
+    english = ENGLISH.replace('# Example\n', '# Example\n\n' + config['navigation'] + '\n', 1)
+    (tmp_path / 'README.md').write_text(english)
+    (tmp_path / config['translation']).write_text(TRANSLATIONS[language])
+    check_translation(tmp_path, config, ENGLISH.encode())
 
 
 def test_raw_fence_bytes_preserved():

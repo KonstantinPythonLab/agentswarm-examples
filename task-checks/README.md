@@ -10,7 +10,7 @@ repository plus that target checkout is sufficient; no private bundle is needed.
 | [MCP initialize](mcp-initialize/) | agentswarm-mcp | malformed handshake metadata |
 | [CLI task filter](cli-task-filter/) | agentswarm-cli | Node and Python task flags, HTTP query and help |
 | [Spanish README](spanish-readme/) | agentswarm-work-skill | offline Markdown links, sections and examples |
-| [Pinned README translations](readme-translation/) | agentswarm-cli (ko), agentswarm-mcp (ja), agentswarm-remote (zh-CN) | one configurable stdlib check for pinned English, structure, code, links and target scripts |
+| [Pinned README translations](readme-translation/) | agentswarm-cli (ko, ja), agentswarm-mcp (ja, ko), agentswarm-remote (zh-CN), agentswarm-work-skill (ja) | one configurable stdlib check for pinned English, structure, code, links and target scripts |
 | [Remote bounty context](remote-bounty-context/) | agentswarm-remote | parent task IDs and funder counts |
 | [MCP Spanish README](mcp-spanish-readme/) | agentswarm-mcp | pinned English baseline, Spanish links, sections and examples |
 | [Work-skill Brazilian Portuguese README](work-skill-portuguese-readme/) | agentswarm-work-skill | current pinned English baseline including Spanish navigation |

@@ -1,6 +1,6 @@
 # Pinned README translation check
 
-This single parametrized pytest check supports the three tasks below. It uses only
+This single parametrized pytest check supports the six tasks below. It uses only
 Python's standard library and pytest; it reads files without importing or running
 code from the target checkout. Meaning, accuracy and scope also receive human/AI
 review: script and structural heuristics cannot prove semantic equivalence or
@@ -25,6 +25,9 @@ Run the exact command for your task from this folder:
 | `cli-ko` / andrewsiah/agentswarm-cli | Korean / `README.ko.md` | `BOUNTY_TASK=cli-ko python -m pytest -q test_readme_translation.py` |
 | `mcp-ja` / andrewsiah/agentswarm-mcp | Japanese / `README.ja.md` | `BOUNTY_TASK=mcp-ja python -m pytest -q test_readme_translation.py` |
 | `remote-zh-CN` / andrewsiah/agentswarm-remote | Simplified Chinese / `README.zh-CN.md` | `BOUNTY_TASK=remote-zh-CN python -m pytest -q test_readme_translation.py` |
+| `cli-ja` / andrewsiah/agentswarm-cli | Japanese / `README.ja.md` | `BOUNTY_TASK=cli-ja python -m pytest -q test_readme_translation.py` |
+| `mcp-ko` / andrewsiah/agentswarm-mcp | Korean / `README.ko.md` | `BOUNTY_TASK=mcp-ko python -m pytest -q test_readme_translation.py` |
+| `work-skill-ja` / andrewsiah/agentswarm-work-skill | Japanese / `README.ja.md` | `BOUNTY_TASK=work-skill-ja python -m pytest -q test_readme_translation.py` |
 
 `BOUNTY_LANGUAGE` and `BOUNTY_FILE` may explicitly name the language code and
 filename in the table; they must match the selected task. `tasks.json` pins each
@@ -43,6 +46,14 @@ English README must otherwise remain byte-identical to the baseline:
 | `cli-ko` | `English · [한국어](README.ko.md)` |
 | `mcp-ja` | `English · [日本語](README.ja.md)` |
 | `remote-zh-CN` | `English · [简体中文](README.zh-CN.md)` |
+| `cli-ja` | `English · [日本語](README.ja.md)` |
+| `mcp-ko` | `English · [한국어](README.ko.md)` |
+| `work-skill-ja` | `English · [日本語](README.ja.md)` |
+
+For `work-skill-ja`, retain the existing Chinese, Spanish and Portuguese navigation
+paragraph as well; the Japanese line is a separate addition after the heading.
+Translate that existing navigation's link labels in the Japanese README while
+preserving the link targets, just like other prose blocks.
 
 Translate every section. Preserve heading levels/order, paragraph boundaries,
 list items, table rows, blockquotes and code-block positions. Paragraph line wraps
