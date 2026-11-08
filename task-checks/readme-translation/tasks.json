@@ -1,0 +1,29 @@
+{
+  "cli-ko": {
+    "repository": "andrewsiah/agentswarm-cli",
+    "commit": "312c4cace9fb0de0398805c31f16825c3afd5063",
+    "sha256": "661579237b35643c3451dc74f80d2c70d75a08d87aa957998d7a691a40100d2a",
+    "baseline": "baselines/agentswarm-cli.md",
+    "language": "ko",
+    "translation": "README.ko.md",
+    "navigation": "English · [한국어](README.ko.md)"
+  },
+  "mcp-ja": {
+    "repository": "andrewsiah/agentswarm-mcp",
+    "commit": "78c88ff1d36b61aaf01a111cb3a6608394a5844e",
+    "sha256": "97533a215be7b6d4dfe602031f85f1ebc23fb3a38a83bf7992b534d19743e2d9",
+    "baseline": "baselines/agentswarm-mcp.md",
+    "language": "ja",
+    "translation": "README.ja.md",
+    "navigation": "English · [日本語](README.ja.md)"
+  },
+  "remote-zh-CN": {
+    "repository": "andrewsiah/agentswarm-remote",
+    "commit": "12074974d270e34c8254c0c4b7e4b13c80ae5ece",
+    "sha256": "259a1a794db798086e4a13e8c028423ee70464384ce7aa671be1729b71d2bb63",
+    "baseline": "baselines/agentswarm-remote.md",
+    "language": "zh-CN",
+    "translation": "README.zh-CN.md",
+    "navigation": "English · [简体中文](README.zh-CN.md)"
+  }
+}
