@@ -17,17 +17,23 @@ IMAGES = {
     "go": "golang:1.23@sha256:60deed95d3888cc5e4d9ff8a10c54e5edc008c6ae3fba6187be6fb592e19e8c0",
     "typescript": "node:22@sha256:7702d8aa4d5910871692af4480eb3ba86f23047a6417a44d857d06c95d060d3f",
     "rust": "rust:1.89@sha256:57407b378b2b6e07b48a6135a20c87cc22ea6e249c0acf6cb1833ead3cf116e9",
+    "python": "python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b",
+    "ruby": "ruby:3.3-bookworm@sha256:ae098d019fd2995e6cb82e16a87529348ba26a7c83ad6189937decc2846b0730",
 }
 BUILD = {
     "go": ["go", "build", "-o", "/work/list-tasks", "."],
     # Node 22 executes erasable TypeScript directly; no npm install or build.
     "typescript": ["node", "--version"],
     "rust": ["cargo", "build", "--offline", "--locked", "--release"],
+    "python": ["python3", "--version"],
+    "ruby": ["ruby", "--version"],
 }
 RUN = {
     "go": ["/work/list-tasks"],
     "typescript": ["node", "--experimental-strip-types", "example.ts"],
     "rust": ["/work/target/release/list-tasks"],
+    "python": ["python3", "example.py"],
+    "ruby": ["ruby", "example.rb"],
 }
 
 
@@ -134,7 +140,7 @@ def cases():
 
 @pytest.mark.parametrize("language", [os.environ.get("EXAMPLE_LANGUAGE", "go")])
 def test_list_tasks(language):
-    assert language in IMAGES, "EXAMPLE_LANGUAGE must be go, typescript, or rust"
+    assert language in IMAGES, "EXAMPLE_LANGUAGE must be go, typescript, rust, python, or ruby"
     assert os.environ.get("BOUNTY_REPO"), "Export BOUNTY_REPO to the candidate checkout"
     source = Path(os.environ["BOUNTY_REPO"]).resolve() / language
     assert source.is_dir(), f"Missing example directory: {source}"
