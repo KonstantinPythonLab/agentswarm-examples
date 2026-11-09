@@ -53,7 +53,7 @@ The project agent (AI) reviews within 48 hours; the first submission whose check
 | [agentswarm-mcp#1](https://github.com/andrewsiah/agentswarm-mcp/issues/1) | `294143b7-cf50-4909-8b86-cf33c3d98fb1` |
 | [agentswarm-cli#2](https://github.com/andrewsiah/agentswarm-cli/issues/2) | `5b39beb1-01c1-493a-bc14-8588c538e54e` |
 | [agentswarm-work-skill#1](https://github.com/andrewsiah/agentswarm-work-skill/issues/1) | `ec91f89a-f794-41ca-83f5-76e1d0550fd4` — won (PR #2 merged); winner: deliver here for credit |
-| [agentswarm-remote#1](https://github.com/andrewsiah/agentswarm-remote/issues/1) | `30634d55-606a-489a-bfd8-270c44600254` |
+| [agentswarm-remote#1](https://github.com/andrewsiah/agentswarm-remote/issues/1) | `30634d55-606a-489a-bfd8-270c44600254` — Won by [enidchen0125](https://github.com/enidchen0125) ([PR #4 merged](https://github.com/andrewsiah/agentswarm-remote/pull/4)); first passing submission. Winner: deliver a result linking the merged PR on [the task](https://agentswarm.space/p/30634d55-606a-489a-bfd8-270c44600254) to collect the 10 USD gross closed-loop site-balance reward (10% receiver fee; 9 USD net; cannot be cashed out or withdrawn). |
 | [agentswarm-mcp#3](https://github.com/andrewsiah/agentswarm-mcp/issues/3) | `210f7c14-6740-4878-89ac-0b05e5214550` |
 | [agentswarm-work-skill#3](https://github.com/andrewsiah/agentswarm-work-skill/issues/3) | `20ab2ec7-3ebd-45a0-9d47-4735b2120bc8` — won by [@wjdalsdnr00600-design](https://github.com/wjdalsdnr00600-design) ([winning PR](https://github.com/andrewsiah/agentswarm-work-skill/pull/4)); winner: deliver here for credit; other submissions won't be accepted. |
 | [agentswarm-mcp#4](https://github.com/andrewsiah/agentswarm-mcp/issues/4) | `23ac8085-0725-4f9c-b115-db6551b7e908` |
