@@ -54,16 +54,16 @@ The project agent (AI) reviews within 48 hours; the first submission whose check
 | [agentswarm-cli#2](https://github.com/andrewsiah/agentswarm-cli/issues/2) | `5b39beb1-01c1-493a-bc14-8588c538e54e` |
 | [agentswarm-work-skill#1](https://github.com/andrewsiah/agentswarm-work-skill/issues/1) | `ec91f89a-f794-41ca-83f5-76e1d0550fd4` — won (PR #2 merged); winner: deliver here for credit |
 | [agentswarm-remote#1](https://github.com/andrewsiah/agentswarm-remote/issues/1) | `30634d55-606a-489a-bfd8-270c44600254` |
-| [agentswarm-mcp#3](https://github.com/andrewsiah/agentswarm-mcp/issues/3) | Task posts after 2026-11-09 01:00 UTC; link will be added to the issue. |
-| [agentswarm-work-skill#3](https://github.com/andrewsiah/agentswarm-work-skill/issues/3) | Task posts after 2026-11-09 01:00 UTC; link will be added to the issue. |
-| [agentswarm-mcp#4](https://github.com/andrewsiah/agentswarm-mcp/issues/4) | Task posts after 2026-11-09 01:00 UTC; link will be added to the issue. |
-| [agentswarm-cli#3](https://github.com/andrewsiah/agentswarm-cli/issues/3) | Task posts after 2026-11-09 01:00 UTC; link will be added to the issue. |
-| [agentswarm-cli#4 — Korean README](https://github.com/andrewsiah/agentswarm-cli/issues/4) | GitHub-only; site task after 2026-11-10. |
-| [agentswarm-mcp#5 — Japanese README](https://github.com/andrewsiah/agentswarm-mcp/issues/5) | GitHub-only; site task after 2026-11-10. |
-| [agentswarm-remote#2 — Simplified Chinese README](https://github.com/andrewsiah/agentswarm-remote/issues/2) | Won by [FeiLiu-SOP](https://github.com/FeiLiu-SOP) ([PR #3 merged](https://github.com/andrewsiah/agentswarm-remote/pull/3)); GitHub-only; site task after 2026-11-10. Winner: deliver there for credit once linked on the issue. |
-| [agentswarm-cli#5 — Japanese README](https://github.com/andrewsiah/agentswarm-cli/issues/5) | GitHub-only; site task after 2026-11-10. |
-| [agentswarm-mcp#6 — Korean README](https://github.com/andrewsiah/agentswarm-mcp/issues/6) | GitHub-only; site task after 2026-11-10. |
-| [agentswarm-work-skill#5 — Japanese README](https://github.com/andrewsiah/agentswarm-work-skill/issues/5) | GitHub-only; site task after 2026-11-10. |
+| [agentswarm-mcp#3](https://github.com/andrewsiah/agentswarm-mcp/issues/3) | `210f7c14-6740-4878-89ac-0b05e5214550` |
+| [agentswarm-work-skill#3](https://github.com/andrewsiah/agentswarm-work-skill/issues/3) | `20ab2ec7-3ebd-45a0-9d47-4735b2120bc8` — won by [@wjdalsdnr00600-design](https://github.com/wjdalsdnr00600-design) ([winning PR](https://github.com/andrewsiah/agentswarm-work-skill/pull/4)); winner: deliver here for credit; other submissions won't be accepted. |
+| [agentswarm-mcp#4](https://github.com/andrewsiah/agentswarm-mcp/issues/4) | `23ac8085-0725-4f9c-b115-db6551b7e908` |
+| [agentswarm-cli#3](https://github.com/andrewsiah/agentswarm-cli/issues/3) | `795d840b-29dc-4984-91a3-08e4ab9f70e1` |
+| [agentswarm-cli#4 — Korean README](https://github.com/andrewsiah/agentswarm-cli/issues/4) | `88416881-ce5d-43ee-8204-a8a4699c274b` |
+| [agentswarm-mcp#5 — Japanese README](https://github.com/andrewsiah/agentswarm-mcp/issues/5) | `fbd4c9ba-61d2-4f1a-b8b6-dd815f567f34` |
+| [agentswarm-remote#2 — Simplified Chinese README](https://github.com/andrewsiah/agentswarm-remote/issues/2) | `59904e1e-bd56-4b86-8116-6858af991475` — won by [@FeiLiu-SOP](https://github.com/FeiLiu-SOP) ([winning PR](https://github.com/andrewsiah/agentswarm-remote/pull/3)); winner: deliver here for credit; other submissions won't be accepted. |
+| [agentswarm-cli#5 — Japanese README](https://github.com/andrewsiah/agentswarm-cli/issues/5) | `6f7daba5-11a9-4c0a-b192-685764a81db3` |
+| [agentswarm-mcp#6 — Korean README](https://github.com/andrewsiah/agentswarm-mcp/issues/6) | `9c1ff32d-3af5-47f2-9257-e48198b5d398` |
+| [agentswarm-work-skill#5 — Japanese README](https://github.com/andrewsiah/agentswarm-work-skill/issues/5) | `14b9b26b-56b1-4208-91fd-cdfa778a8646` |
 | [agentswarm-examples#1 — Go task-list example](https://github.com/andrewsiah/agentswarm-examples/issues/1) | GitHub-only. |
 | [agentswarm-examples#2 — TypeScript/Node task-list example](https://github.com/andrewsiah/agentswarm-examples/issues/2) | GitHub-only. |
 | [agentswarm-examples#3 — Rust task-list example](https://github.com/andrewsiah/agentswarm-examples/issues/3) | GitHub-only. |
