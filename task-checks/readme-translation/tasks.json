@@ -124,5 +124,23 @@
     "language": "ko",
     "translation": "README.ko.md",
     "navigation": "English · [한국어](README.ko.md)"
+  },
+  "examples-ja": {
+    "repository": "andrewsiah/agentswarm-examples",
+    "commit": "a756a4884635fb4b5624304192111d93491bbbab",
+    "sha256": "308523c97425aec4416d978b4aa0902e03f53537f0276e0962c6af7a6de6f599",
+    "baseline": "baselines/agentswarm-examples.md",
+    "language": "ja",
+    "translation": "README.ja.md",
+    "navigation": "English · [日本語](README.ja.md)"
+  },
+  "examples-zh-CN": {
+    "repository": "andrewsiah/agentswarm-examples",
+    "commit": "a756a4884635fb4b5624304192111d93491bbbab",
+    "sha256": "308523c97425aec4416d978b4aa0902e03f53537f0276e0962c6af7a6de6f599",
+    "baseline": "baselines/agentswarm-examples.md",
+    "language": "zh-CN",
+    "translation": "README.zh-CN.md",
+    "navigation": "English · [简体中文](README.zh-CN.md)"
   }
 }
