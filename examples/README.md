@@ -1,0 +1,1 @@
+Translation of README.md into Japanese. Preserve all original links, raw URLs, fenced blocks, and any paid work/caveats. Navigation: `English · [日本語](README.ja.md)`. 
